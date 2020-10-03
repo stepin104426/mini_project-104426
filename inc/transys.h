@@ -1,3 +1,8 @@
+#ifndef __TRANSYS_H__
+#define __TRANSYS_H__
+
+
+
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
@@ -26,3 +31,4 @@ void train_sort(int sort_type);
 int compare_train(train *t_array1,train *t_array2, int num);
 int compare_time(char* t1, char* t2);
 
+#endif
